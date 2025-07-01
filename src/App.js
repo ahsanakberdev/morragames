@@ -29,20 +29,14 @@
 // }
 
 // export default App
-
-import { HashRouter, Routes, Route } from 'react-router-dom';
-
-// ...
+import React from 'react';
 
 const App = () => {
   return (
-    <HashRouter>
-      <ProgressBar />
-      <Routes>
-        <Route path='/' element={<Index />} />
-        <Route path='/karnak-legacy' element={<Games1 />} />
-        <Route path='/mythya' element={<Games2 />} />
-      </Routes>
-    </HashRouter>
+    <div>
+      <h1>Hello from App!</h1>
+    </div>
   );
 };
+
+export default App;
