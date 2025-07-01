@@ -1,0 +1,102 @@
+/* src/components/MorraGameEcosystem.css */
+
+.container-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 60%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: #737373;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 9px 23px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button.mexc {
+  background: #0000;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #7573e2, #2ad9a3);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button.mexc:hover {
+  background-color: var(--color--neutral-700);
+}
+
+.button.uniswap {
+  background: #0000 linear-gradient(90deg, #2ad9a3, #7573e2);
+  border: 1px solid #262626;
+  border-radius: 0 !important;
+  color: #fff;
+  color: var(--color--white);
+  flex: none;
+  padding: 9px 23px;
+  padding: var(--size--10) var(--size--16);
+  transition: background-color 0.15s, color 0.15s ease-out;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button.uniswap:hover {
+  background-color: var(--color--teal-400);
+}
+
+@media (max-width: 768px) {
+  .container-custom {
+    flex-direction: column;
+  }
+
+  .text-container h1 {
+    font-size: 2rem;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+  }
+}
