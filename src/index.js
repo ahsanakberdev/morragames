@@ -32,7 +32,7 @@ import ScrollToTop from './Components/ScrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/morrasolvebug">
+    <BrowserRouter basename="/morragames">
       <ScrollToTop>
         <App />
       </ScrollToTop>
