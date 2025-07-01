@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/morragames/static/css/main.5674e822.css",
-    "main.js": "/morragames/static/js/main.dbdf0ea4.js",
+    "main.js": "/morragames/static/js/main.31492387.js",
     "static/js/453.fbd18624.chunk.js": "/morragames/static/js/453.fbd18624.chunk.js",
     "static/media/Temple-of-Egypt.webm": "/morragames/static/media/Temple-of-Egypt.c40e77cc86f8caa0021a.webm",
     "static/media/Mythya WebM.webm": "/morragames/static/media/Mythya WebM.55e4e25bf4f5d32a1933.webm",
@@ -153,11 +153,11 @@
     "static/media/right_arrow_icon.svg": "/morragames/static/media/right_arrow_icon.7fea6a2378cfadd5dba68e8c45be06a3.svg",
     "static/media/slider_icon.svg": "/morragames/static/media/slider_icon.52a1db7d6f766388bff3c3bd996eb234.svg",
     "main.5674e822.css.map": "/morragames/static/css/main.5674e822.css.map",
-    "main.dbdf0ea4.js.map": "/morragames/static/js/main.dbdf0ea4.js.map",
+    "main.31492387.js.map": "/morragames/static/js/main.31492387.js.map",
     "453.fbd18624.chunk.js.map": "/morragames/static/js/453.fbd18624.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5674e822.css",
-    "static/js/main.dbdf0ea4.js"
+    "static/js/main.31492387.js"
   ]
 }
